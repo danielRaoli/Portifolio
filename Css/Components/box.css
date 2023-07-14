@@ -1,0 +1,10 @@
+.box{
+    display: inline-block;
+    background-color: #110B34;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.box .title{
+    margin-bottom: 20px;
+}
