@@ -3,8 +3,9 @@
     background-color: #110B34;
     padding: 40px 20px;
     text-align: center;
+    box-shadow: 10px 10px 0 #000;
 }
 
-.box .title{
+.box .main-title{
     margin-bottom: 20px;
 }

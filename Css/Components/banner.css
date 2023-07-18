@@ -1,7 +1,30 @@
 .banner{
+    box-sizing: border-box;
     background-image: url(../../Assets/images/fundoindex\ -\ Copia.jpg);
     height: 800px;
     background-repeat: no-repeat;
     background-size: 100%;
-    border: 10px solid #000;
+    border-bottom: 10px solid #000;
+
+}
+
+
+
+.banner .wrapper{
+    display: flex;
+    width: 630px;
+    flex-direction: column;
+    padding-top: 90px;
+    padding-left: 110px;
+
+}
+
+.banner .box{
+    margin-bottom: 40px;
+}
+
+.banner .navigation{
+
+    display: flex;
+    justify-content: space-around;
 }
