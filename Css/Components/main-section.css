@@ -1,0 +1,24 @@
+.main-section {
+    box-sizing: border-box;
+
+}
+
+.main-section .main-title.-second{
+    padding-top: 50px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+.main-section.-skills{
+    background-color: #110B34;
+    height: 740px;
+    width: 100%;
+}
+
+.main-section.-projects{
+    border-top:10px solid #04724D;;
+    background-color: black;
+    height: 520px;
+    max-width: 100%;
+    border-bottom: 10px solid #04724D;
+}

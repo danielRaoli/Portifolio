@@ -1,0 +1,15 @@
+.wrapper-project{
+    max-width: 1150px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.wrapper-project .card-project{
+    width: 280px;
+    height: 280px;
+    box-shadow: 5px 5px 0 #fff;
+}
+

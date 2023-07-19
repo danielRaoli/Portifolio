@@ -1,5 +1,6 @@
 .progress {
     -webkit-appearance: none;
+    -moz-appearance: none;
   }
 
 .progress::-webkit-progress-value {
@@ -15,5 +16,21 @@
   }
 
   .progress::-webkit-progress-bar {
+    background-color:white;
+  }
+
+  .progress::-moz-progress-value {
+    background-color: #04724D;
+
+  }
+
+  
+.progress::-moz-progress-inner-element {
+    border: 5px solid black;
+    width: 320px;
+    height: 40px;
+  }
+
+  .progress::-moz-progress-bar {
     background-color:white;
   }

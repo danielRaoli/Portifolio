@@ -1,9 +1,6 @@
 .skills-tec{
     display: flex;
-    justify-items: initial;
-    width: 430px;
-    height: 90px;
-    padding-bottom: 40px;
+    box-sizing: border-box;
 }
 
 .skills-tec .icon{
@@ -13,14 +10,15 @@
 }
 
 .skills-tec .title{
-    padding-top: 10px;
-        font-family: "Press Start 2P", sans-serif;
-        font-size: 25px;
-        color: rgb(255, 255, 255);
+    font-family: "Press Start 2P", sans-serif;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    padding-top: 5px;
+
 }
 
-.skills-tec:nth-child(odd){
-    margin-right: 100px;
+.skills-tec .right{
+    display: flex;
+    flex-direction: column;
 }
-
-
