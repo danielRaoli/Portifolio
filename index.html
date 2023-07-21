@@ -22,7 +22,11 @@
     <link rel="stylesheet" href="Css/Components/progress.css">
     <link rel="stylesheet" href="Css/Components/wrapper-skills.css">
     <link rel="stylesheet" href="Css/Components/wrapper-projects.css">
+    <link rel="stylesheet" href="Css/Components/main-description.css">
     <link rel="stylesheet" href="Css/Components/card-project.css">
+    <link rel="stylesheet" href="Css/Components/arrow-button.css">
+    <link rel="stylesheet" href="Css/Components/description-section.css">
+    <link rel="stylesheet" href="Css/Components/main-form.css">
 </head>
 <body>
     <header class="header">
@@ -47,7 +51,7 @@
                  </div>
         </div>
     </section>
-    <section class="main-section -skills">
+    <section class="main-section -bgblue">
         <h2 class="main-title -second">Skills</h2>
         <div class="wrapper-skill">
             <div class="skills-tec">
@@ -79,7 +83,7 @@
                 </div>
             </div>
             <div class="skills-tec">
-                <img class="icon" src="Assets/images/image-removebg-preview.png" alt="icon Sql">
+                <img class="icon" src="Assets/images/icon-bd.png" alt="icon Sql">
                 <div class="right">
                     <h3 class="title">SQL</h3>             
                     <progress class="progress" max="100" value="70">70%</progress>
@@ -108,20 +112,46 @@
             </div>
         </div>
     </section>
-    <section class="main-section -projects">
+    <section class="main-section -bgblack">
         <h2 class="main-title -second">PROJECTS</h2>
         <div class="wrapper-project">
             <figure class="card-project"  > 
-                <img src="Assets/images/danielicon.png" alt="">
+                <img src="Assets/images/icon-agenda.png" alt="">
             </figure>
             <figure class="card-project -primary">
-                <img  src="Assets/images/danielicon.png" alt="">
+                <img  src="Assets/images/icon-vendas.png" alt="">
             </figure>
             <figure class="card-project -secundary" >
                 <img src="Assets/images/danielicon.png" alt="">
             </figure>   
         </div>
     </section>
+    <section class="main-section -bgblue">
+        <h2 class="main-title -second" >ABOUT</h2>
+        <section class="description-section">
+            <p class="main-description">
+            Olá me chamo Daniel Raoli, atualmente formado em análise e desenvolvimento de sistemas,
+            curso em que tive a oportunidade de contato acadêmico com diversas linguagens e nichos
+            da área de ti. Estou sempre procurando novos desafios e oportunidades para crescer profissionalmente.
+            Procuro oportunidades tanto na área de FrontEnd quanto BeckEnd. Para fazer o BeckEnd das minhas aplicações
+            utilizo a linguagem C# e o .Net como framework, o banco de dados que mais utilizo é o Sql Server, já na parte
+            do FrontEnd trabalho com Html, CSS utilizando bootStrap como frameWork, JavaScript utilizo o Angular como frameWork.
+            </p>
+        </section>
+    </section>
+    <section class="main-section -bggrey">
+        <h2 class="main-title -second">CONTACT</h2>
+        <form class="main-form">
+            <label for="name">Name</label>
+            <input name="name" class="form-item" type="text">
+            <label for="email">Email</label>
+            <input name="email" class="form-item" type="email">
+            <label for="message">Message</label>
+            <textarea class="form-item" name="message" cols="30" rows="10"></textarea>
+            <a class="button form-item">Send</a>
+        </form>
+    </section>
+
 
 </body>
 </html>

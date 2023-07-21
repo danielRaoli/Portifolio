@@ -1,12 +1,14 @@
 .skills-tec{
     display: flex;
     box-sizing: border-box;
+    
 }
 
 .skills-tec .icon{
     width: 80px;
     height: 90px;
     margin-right: 25px;
+    
 }
 
 .skills-tec .title{
