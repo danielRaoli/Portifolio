@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="wih3/h3h=device-wih3/h3h, initial-scale=1.0">
-    <title>Daniel Luka</title>
+    <title>Daniel Raoli</title>
 
     <link rel="stylesheet" href="Css/reset.css">
 
@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="Css/Components/main-subtitle.css">
     <link rel="stylesheet" href="Css/Components/box.css">
     <link rel="stylesheet" href="Css/Components/button.css">
-    <link rel="stylesheet" href="Css/Components/action.css">
+    <link rel="stylesheet" href="Css/Components/main-action.css">
     <link rel="stylesheet" href="Css/Components/main-section.css">
     <link rel="stylesheet" href="Css/Components/skill-tec.css">
     <link rel="stylesheet" href="Css/Components/progress.css">
@@ -27,15 +27,16 @@
     <link rel="stylesheet" href="Css/Components/arrow-button.css">
     <link rel="stylesheet" href="Css/Components/description-section.css">
     <link rel="stylesheet" href="Css/Components/main-form.css">
+    <link rel="stylesheet" href="Css/Components/main-footer.css">
 </head>
 <body>
     <header class="header">
         <img src="Assets/images/danielicon.png" alt="caricatura de daniel">
         <nav>
-            <a class="action">skills</a>
-            <a class="action" >projetos</a>
-            <a class="action">sobre</a>
-            <a class="action">Contatos</a>
+            <a class="main-action">skills</a>
+            <a class="main-action" >projetos</a>
+            <a class="main-action">sobre</a>
+            <a class="main-action">Contatos</a>
             <a class="button" href="">Download Cv</a>
         </nav>
     </header>
@@ -143,14 +144,18 @@
         <h2 class="main-title -second">CONTACT</h2>
         <form class="main-form">
             <label for="name">Name</label>
-            <input name="name" class="form-item" type="text">
+            <input id="name" class="form-item" type="text">
             <label for="email">Email</label>
             <input name="email" class="form-item" type="email">
             <label for="message">Message</label>
             <textarea class="form-item" name="message" cols="30" rows="10"></textarea>
-            <a class="button form-item">Send</a>
+            <a class="button -full">Send</a>
         </form>
     </section>
+    <footer class="main-footer">
+         <a class="action" target="_blank" href="https://github.com/danielRaoli"><img src="Assets/images/icon-github.png" alt="Github logo"></a>
+         <a class="action" target="_blank" href="https://www.linkedin.com/in/daniel-ramos-a6b278249/"><img src="Assets/images/icon-linkedin.png" alt="linkedin logo"></a>
+    </footer>
 
 
 </body>

@@ -1,5 +1,12 @@
 .button{
     display: inline-block;
+    font-size: 20px;
+    color: white;
+    font-family: "Fira Code", Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 30px;
+    cursor: pointer;
     box-sizing: border-box;
     background-color: #110B34;
     height: 60px;
@@ -13,7 +20,16 @@
 }
 
 .button:hover {
+    color:#110B34 ;
     background-color: #B6B6CA;
     transform: scale(1.08);
 
+}
+
+.button.-full{
+    width: 100%;
+}
+
+.button.-full:hover{
+    transform: scale(1.02);
 }
