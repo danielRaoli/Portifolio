@@ -1,31 +1,71 @@
 .main-section {
     box-sizing: border-box;
+    width: auto;
+    height: auto;
+    padding: 1rem;
 
 }
 
 .main-section .main-title.-second{
     padding-top: 50px;
-    padding-bottom: 60px;
+    padding-bottom: 40px;
     text-align: center;
 }
 
 .main-section.-bgblue{
     background-color: #110B34;
-    height: 740px;
-    width: 100%;
+    height: auto;
+    width: auto;
 }
 
 .main-section.-bgblack{
     border-top:10px solid #04724D;;
     background-color: black;
     height: 520px;
-    max-width: 100%;
     border-bottom: 10px solid #04724D;
 }
 
 .main-section.-bggrey{
     border-top:10px solid black;
     background-color: #565680;
-    max-width: 100%;
+    
     border-bottom: 10px solid black;
 }
+
+
+@media screen and (max-width:970px) {
+    .main-section.-bgblue .wrapper-skill{
+       flex-direction: column; 
+       align-items: center;
+       gap: 2rem;
+       padding-bottom: 2rem;
+    }
+
+    .main-section.-bgblue .wrapper-skill .skills-tec{
+        margin: 0;
+        
+     }
+}
+
+@media screen and (max-width:760px) {
+    .main-section.-bgblack{
+        height: auto;
+    }
+    .main-section.-bgblack .wrapper-project{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        
+    }
+
+    .main-section.-bgblack .wrapper-project .card-project{
+        width: 40%;
+        height: 250px;
+        box-sizing: border-box;
+        margin-bottom: 1rem;
+    }
+
+
+
+}
+

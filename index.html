@@ -28,16 +28,22 @@
     <link rel="stylesheet" href="Css/Components/description-section.css">
     <link rel="stylesheet" href="Css/Components/main-form.css">
     <link rel="stylesheet" href="Css/Components/main-footer.css">
+    <link rel="stylesheet" href="Css/Components/menu-icon.css">
+    <link rel="stylesheet" href="Css/Components/icon-close.css">
 </head>
 <body>
     <header class="header">
-        <img src="Assets/images/danielicon.png" alt="caricatura de daniel">
+        <img class="icon" src="Assets/images/danielicon.png" alt="caricatura de daniel">
+        <a class="menu-icon" href="#">
+            <img src="/Assets/images/menu-icon2-removebg-preview.png" alt="">
+        </a>
         <nav class="menu">
             <a class="main-action">skills</a>
             <a class="main-action" >projects</a>
             <a class="main-action">about</a>
             <a class="main-action">Contact</a>
-            <a href="" class="button">Download</a>
+            <a class="button">Download</a>
+            <a class="icon-close" href="#">X</a>
         </nav>
     </header>
     <section class="banner">
@@ -50,6 +56,7 @@
                     <a class="button" href="">Download Cv</a>
                     <a class="button" href="">Contatact</a>
                  </div>
+                 
         </div>
     </section>
     <section class="main-section -bgblue">
@@ -77,21 +84,21 @@
                 </div>   
             </div>
             <div class="skills-tec">
-                <img class="icon" src="Assets/images/ico_js.svg" alt="icon JavaScript">
+                <img class="icon"  src="Assets/images/ico_js.svg" alt="icon JavaScript">
                 <div class="right">
                     <h3 class="title">JAVASCRIPT</h3>
                     <progress class="progress" max="100" value="70">70%</progress>
                 </div>
             </div>
             <div class="skills-tec">
-                <img class="icon" src="Assets/images/icon-bd.png" alt="icon Sql">
+                <img class="icon"  src="Assets/images/icon-bd.png" alt="icon Sql">
                 <div class="right">
                     <h3 class="title">SQL</h3>             
                     <progress class="progress" max="100" value="70">70%</progress>
                 </div>
             </div>
             <div class="skills-tec">
-                <img class="icon" src="Assets/images/icon_.Net-removebg-preview.png" alt="icon .NEt">
+                <img class="icon"  src="Assets/images/icon_.Net-removebg-preview.png" alt="icon .NEt">
                 <div class="right">
                     <h3 class="title">.NET</h3>               
                     <progress class="progress" max="100" value="70">70%</progress>
@@ -116,26 +123,27 @@
     <section class="main-section -bgblack">
         <h2 class="main-title -second">PROJECTS</h2>
         <div class="wrapper-project">
-            <a href="https://github.com/danielRaoli/SistemaDeContatos/tree/main/SistemaDeContatos">
-                <figure class="card-project"  > 
-                    <img src="Assets/images/icon-agenda.png" alt="">
-                </figure>
-            </a>
-            <a href="https://github.com/danielRaoli/SalesWebMvc">
-                <figure class="card-project -primary">
-                    <img  src="Assets/images/icon-vendas.png" alt="">
-                </figure>
-            </a>
-            <a href="https://danielraoli.github.io/Jazz-School/">
-                <figure class="card-project -primary">
-                    <img  src="Assets/images/logo.svg" alt="">
-                </figure>
-            </a>
-            <a href="https://danielraoli.github.io/Portifolio/">
-                <figure class="card-project -secundary" >
-                    <img src="Assets/images/danielicon.png" alt="">
-                </figure> 
-            </a>  
+            <figure class="card-project"  > 
+                <a href="https://github.com/danielRaoli/SistemaDeContatos/tree/main/SistemaDeContatos">
+                    <img class="icon" src="Assets/images/icon-agenda.png" alt="">
+                </a>
+            </figure>
+            
+            <figure class="card-project -primary">
+                <a href="https://github.com/danielRaoli/SalesWebMvc">
+                    <img class="icon"  src="Assets/images/icon-vendas.png" alt="">
+                </a>
+            </figure>
+            <figure class="card-project -primary">
+                <a href="https://danielraoli.github.io/Jazz-School/">
+                    <img class="icon"  src="Assets/images/logo.svg" alt="">
+                </a>
+            </figure>
+            <figure class="card-project -secundary" >
+                <a href="https://danielraoli.github.io/Portifolio/">
+                    <img class="icon" src="Assets/images/danielicon.png" alt="">
+                </a>  
+            </figure> 
         </div>
     </section>
     <section class="main-section -bgblue">
@@ -164,8 +172,8 @@
         </form>
     </section>
     <footer class="main-footer">
-         <a class="action" target="_blank" href="https://github.com/danielRaoli"><img src="Assets/images/icon-github.png" alt="Github logo"></a>
-         <a class="action" target="_blank" href="https://www.linkedin.com/in/daniel-ramos-a6b278249/"><img src="Assets/images/icon-linkedin.png" alt="linkedin logo"></a>
+         <a class="action" target="_blank" href="https://github.com/danielRaoli"><img class="icon" src="Assets/images/icon-github.png" alt="Github logo"></a>
+         <a class="action" target="_blank" href="https://www.linkedin.com/in/daniel-ramos-a6b278249/"><img class="icon" src="Assets/images/icon-linkedin.png" alt="linkedin logo"></a>
     </footer>
 
 

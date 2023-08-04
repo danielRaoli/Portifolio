@@ -1,0 +1,19 @@
+.menu-icon{
+    box-sizing: border-box;
+    width: auto;
+    height: 60px;
+    display: block;
+}
+ 
+.menu-icon > img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+@media screen and (min-width:981px) {
+    .menu-icon{
+        display: none;
+    }
+}
