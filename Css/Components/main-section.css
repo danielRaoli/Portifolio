@@ -15,7 +15,7 @@
 .main-section.-bgblue{
     background-color: #110B34;
     height: auto;
-    width: auto;
+    width: 100%;
 }
 
 .main-section.-bgblack{
@@ -35,21 +35,20 @@
 
 @media screen and (max-width:970px) {
     .main-section.-bgblue .wrapper-skill{
-       flex-direction: column; 
        align-items: center;
        gap: 2rem;
        padding-bottom: 2rem;
     }
 
-    .main-section.-bgblue .wrapper-skill .skills-tec{
-        margin: 0;
-        
-     }
 }
 
 @media screen and (max-width:760px) {
     .main-section.-bgblack{
         height: auto;
+    }
+
+    .main-section.-bgblue .main-title.-second {
+        font-size: 30px;
     }
     .main-section.-bgblack .wrapper-project{
         display: flex;
@@ -60,7 +59,7 @@
 
     .main-section.-bgblack .wrapper-project .card-project{
         width: 40%;
-        height: 250px;
+        height: 20vh;
         box-sizing: border-box;
         margin-bottom: 1rem;
     }

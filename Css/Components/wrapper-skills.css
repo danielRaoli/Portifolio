@@ -5,6 +5,7 @@
     max-width: 960px;
     margin-left: auto;
     margin-right: auto;
+    box-sizing: border-box;
 }
 
 .wrapper-skill .skills-tec:nth-child(odd){
@@ -19,5 +20,13 @@
 }
 
 
+@media screen and (max-width:740px) {
 
+
+
+
+
+
+
+}
 

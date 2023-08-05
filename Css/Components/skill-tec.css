@@ -24,3 +24,33 @@
     display: flex;
     flex-direction: column;
 }
+
+@media screen and (max-width:740px) {
+    .skills-tec{
+        margin: 0;
+        
+        flex-direction: column;
+        
+    }  
+
+    .skills-tec .right .title{
+        font-size: 20px;
+    }
+
+    .skills-tec .icon {
+        align-items: end;
+        width: 50px;
+        height: 60px;
+    }
+
+    .skills-tec .right {
+        display: block;
+        align-items: flex-start;
+        margin-left: .5rem;
+    }
+
+
+
+    
+
+}
