@@ -16,6 +16,9 @@
     background-color: #110B34;
     height: auto;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .main-section.-bgblack{
@@ -28,16 +31,16 @@
 .main-section.-bggrey{
     border-top:10px solid black;
     background-color: #565680;
-    
+    justify-items: center;
     border-bottom: 10px solid black;
 }
 
 
 @media screen and (max-width:970px) {
     .main-section.-bgblue .wrapper-skill{
-       align-items: center;
        gap: 2rem;
        padding-bottom: 2rem;
+       justify-items: center;
     }
 
 }

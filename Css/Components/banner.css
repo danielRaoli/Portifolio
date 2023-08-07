@@ -71,5 +71,6 @@
         font-size: small;
         height: auto;
         line-height: 1rem;
+        padding: 0.5rem;
     }
 }

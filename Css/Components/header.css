@@ -15,7 +15,14 @@
 
 
 @media screen and (max-width:980px) {
-    .header .menu {
+    .header .menu{
+        display: none;
+    }
+
+}
+
+@media screen and (min-width:740px) {
+    .header .icon-close{
         display: none;
     }
 }

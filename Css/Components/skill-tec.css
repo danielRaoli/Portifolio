@@ -28,13 +28,13 @@
 @media screen and (max-width:740px) {
     .skills-tec{
         margin: 0;
-        
         flex-direction: column;
-        
+        align-items: flex-end;
+        width: auto;
     }  
 
     .skills-tec .right .title{
-        font-size: 20px;
+        font-size: 1rem;
     }
 
     .skills-tec .icon {

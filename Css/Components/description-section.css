@@ -2,3 +2,11 @@
     padding: 0 1.5rem 1.5rem;
 
 }
+
+@media screen and (max-width:740px) {
+    .description-section .main-description{
+        font-size: 1.2rem;
+        line-height: 1rem;
+        
+    }
+}
