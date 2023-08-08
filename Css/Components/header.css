@@ -1,4 +1,6 @@
 .header {
+    position: fixed;
+    width: 100%;
     display:flex;
     vertical-align: middle;
     justify-content: space-between;
