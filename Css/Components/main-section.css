@@ -33,6 +33,9 @@
     background-color: #565680;
     justify-items: center;
     border-bottom: 10px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 
