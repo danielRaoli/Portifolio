@@ -1,3 +1,7 @@
+body{
+    overflow-x: hidden;
+}
+
 .header {
     position: fixed;
     width: 100%;
@@ -7,34 +11,29 @@
     background-color: #4C5B84;
     padding: 10px 20px;
     border-bottom: 10px solid #000 ;
+    box-sizing: border-box;
     
 }
 
 .header > img{
     height: 60px;
     width: 60px;
+    
 }
 
 
-@media screen and (max-width:980px) {
-    .header .menu{
-        display: none;
+@media screen and (max-width:980px){
+
+    .header .menu-icon{
+        display: block;
     }
-
-}
-
-@media screen and (min-width:740px) {
-    .header .icon-close{
-        display: none;
-    }
-}
-/*
+  
     .header .menu {
         top: 0;
         left: 0;
         width: 100%;
         height: 100%;
-        display: flex;
+        display: none;
         flex-direction: column;
         align-items: flex-start;
         position: fixed;
@@ -51,21 +50,29 @@
         display: flex;
     }
 
-    .header .icon-close{
+    .header .menu .icon-close{
         font-size: 40px;
         position: absolute;
         right: 0;
         padding-right: 1rem;
+        display: none;
         
     }
+}
 
-    
+@media screen and (min-width:980px) {
+    .header .menu .menu-icon{
+        display: none;
+    }
+
+    .header .menu > .icon-close{
+        display: none;
+    }
+}
  
 
 
 
-}
 
-*/
 
 

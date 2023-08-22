@@ -1,6 +1,11 @@
 .card-project {
     box-sizing: border-box;
     background-color: #04724D;
+    transition: transform 100ms linear;
+}
+
+.card-project:hover{
+    transform: scale(1.05);
 }
 
  .card-project.-primary{
