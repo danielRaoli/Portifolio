@@ -18,7 +18,7 @@ body{
 
 .header > img{
     height: 60px;
-    width: 60px;
+    width: auto;
     
 }
 
@@ -27,6 +27,8 @@ body{
 
     .header .menu-icon{
         display: block;
+        height: 60px;
+        width: auto;
     }
   
     .header .menu {
