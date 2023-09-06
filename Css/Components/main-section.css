@@ -24,7 +24,7 @@
 .main-section.-bgblack{
     border-top:10px solid #04724D;;
     background-color: black;
-    height: 520px;
+    height: max-content;
     border-bottom: 10px solid #04724D;
 }
 
