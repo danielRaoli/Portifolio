@@ -16,7 +16,7 @@
     box-shadow: 5px 5px 0 #000;
     cursor: pointer;
     text-align: center;
-    transition: transform 100 ms linear;
+    transition: transform 500ms linear;
 }
 
 .button:hover {
